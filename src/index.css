@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  font-family: "Quicksand";
+}
+
+.container{
+  max-width: 800px;
+  margin: auto;
+}
+
+.nav-bar{
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid  #d6cfcf;
+  padding: 20px;
+}
+.nav-bar h1{
+  color: #f1356d;
+}
+.nav-bar a{
+  text-decoration: none;
+}
+.nav-bar .link-container{
+  margin-left: auto;
+}
+.nav-bar .link-container a{
+  color: #333;
+  margin-left: 30px;
+  text-decoration: none;
+}
+.bloglist{
+  padding: 20px;
+  padding-left: 40px;
+}
+.bloglist:hover{
+  box-shadow: 1px 5px 5px rgb(187, 183, 183);
+  cursor: pointer;
+}
+.bloglist a{
+  color: #333;
+  text-decoration: none;
+}
+.bloglist h3{
+  color: #f1356d;
+}
+.home-container h1{
+  padding: 20px;
+}
+.blog-container{
+  padding: 20px 50px 50px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.blog-container h3{
+  margin: 20px;
+}
+.blog-container p{
+  max-width: 600px;
+}
+.newBlog-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.newBlog-container h1{
+  margin: 20px;
+  color: #f1356d;
+}
+.newBlog-container form{
+  display: flex;
+  flex-direction: column;
+}
+.newBlog-container form label{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.newBlog-container button{
+  border-radius: 5px;
+  background-color: #f1356d;
+  border: none;
+  padding: 10px;
+  color:white;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.delete-btn{
+  margin-top: 30px;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+  background-color: #f1356d;
+  color: white;
+  cursor: pointer;
+}
